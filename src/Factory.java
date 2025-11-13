@@ -14,7 +14,6 @@ public class Factory {
 
         new Factory();
     }
-
     //constructors are special types of methods. you can tell it is because it doesn't have void. constructers match the name of the class
     //This is a constructor
     public Factory(){
@@ -24,9 +23,28 @@ public class Factory {
         earnings = 1.1;
         products = "houses";
         factoryInfo();
+        yearFounded = 1990;
+        isOpen = true;
+        factoryInfo();
 
         //change the value of the yearFounded and is Open
         //call factoryInfo()
+
+        //type varName = value;
+        //object of type house is h1
+        House h1 = new House();
+        h1.owner = "Mr. Kim";
+        System.out.println("the owner is" + h1.owner);
+        //todo: give all of the house instance variables values
+        h1.address = "1790 canton ave milton mass";
+        System.out.println("the address is" + h1.address);
+        h1.isOccupied = true;
+        System.out.println("the house is" + h1.isOccupied);
+        h1.size = 4000;
+        System.out.println("the house is" + h1.size + "square feet");
+        h1.walls = 12;
+        System.out.println("the house has" + h1.walls + "walls");
+
     }
 
     //todo: make a method called factoryInfo
@@ -36,8 +54,8 @@ public class Factory {
         //todo: add souts to print in the factory's instance variables
         //these are examples of readable souts
         System.out.println("the year founded:" + yearFounded);
-        System.out.println("the earnings are" + earnings);
-        System.out.println("it is" + Open +"the factory is open");
+        System.out.println("the earnings are " + earnings);
+        System.out.println("it is " + isOpen +" the factory is open");
 
     }
 
