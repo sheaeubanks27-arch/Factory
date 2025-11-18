@@ -45,6 +45,20 @@ public class Factory {
         h1.walls = 12;
         System.out.println("the house has" + h1.walls + "walls");
 
+
+        House h2 = new House();
+        h2.size = 40.2;
+        System.out.println(h2.size);
+        h2.printInfo();
+
+        //todo: make another house called myHouse
+        //call printInfo on myHouse
+        House myHouse = new House();
+        myHouse.printInfo();
+
+        House customHouse = new House(200.24,8,"Shea");
+        customHouse.printInfo();
+
     }
 
     //todo: make a method called factoryInfo
