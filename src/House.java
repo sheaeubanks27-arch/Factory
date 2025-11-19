@@ -21,10 +21,12 @@ public class House {
     //hw: add 2 more parameters to the house constructor, 1 for isOccupied, 1 for address
     //set the instance variables value to the parameters
     //fiz the related problems by adding them to the code in the factory Class
-    public House(double pSize, int pWalls, String pOwner){
+    public House(double pSize, int pWalls, String pOwner, String pAddress, boolean pIsoccupied){
         size = pSize;
         walls = pWalls;
         owner = pOwner;
+        address =pAddress;
+        isOccupied =pIsoccupied;
 
     }
 

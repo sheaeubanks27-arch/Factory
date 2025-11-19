@@ -56,7 +56,7 @@ public class Factory {
         House myHouse = new House();
         myHouse.printInfo();
 
-        House customHouse = new House(200.24,8,"Shea");
+        House customHouse = new House(200.24,8,"Shea","100 Center Ln",true);
         customHouse.printInfo();
 
     }
