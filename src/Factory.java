@@ -59,6 +59,12 @@ public class Factory {
         House customHouse = new House(200.24,8,"Shea","100 Center Ln",true);
         customHouse.printInfo();
 
+        Cat myCat = new Cat();
+        myCat.printInfo();
+
+        Cat customCat = new Cat(6,"blue",false);
+        customCat.printInfo();
+
     }
 
     //todo: make a method called factoryInfo
